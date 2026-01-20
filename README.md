@@ -6,8 +6,8 @@ Vision-Language Models have demonstrated immense potential in the field of Zero-
 ## Quick Start 
 ### 1. Installation  
 ```bash
-conda create -n aaclip python=3.10 -y  
-conda activate aaclip  
+conda create -n dpclip python=3.10 -y  
+conda activate dpclip  
 pip install -r requirements.txt  
 ```
 ### 2. Datasets

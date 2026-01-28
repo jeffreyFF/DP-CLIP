@@ -16,14 +16,14 @@ pip install -r requirements.txt
 ```
 ### 2. Datasets
 The datasets can be downloaded from [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/), [VisA](https://github.com/amazon-science/spot-diff), [MPDD](https://github.com/stepanje/MPDD), [BrainMRI, LiverCT, Retinafrom](https://drive.google.com/drive/folders/1La5H_3tqWioPmGN04DM1vdl3rbcBez62?usp=sharing) from [BMAD](https://github.com/DorisBao/BMAD), [CVC-ColonDB, CVC-ClinicDB, Kvasir, CVC-300](https://figshare.com/articles/figure/Polyp_DataSet_zip/21221579) from Polyp Dataset.
-### 3. Evaluation
+### 3. Train&Test
 > 🔧 **Coming soon!**
 The pre-trained weights of our model will be released soon.
 ```bash
-# evaluation
+# test
 python test.py --save_path $save_path --dataset $dataset
-# bash
-bash test.sh
+# train&test
+bash scripts.sh
 ```
 Model definition is in ``./model/``. We thank [```open_clip```](https://github.com/mlfoundations/open_clip.git) for being open-source. To run the code, one has to download the weight of OpenCLIP ViT-L-14-336px and put it under ```./model/```.
 
